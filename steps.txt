@@ -1,0 +1,15 @@
+(All the steps are to be performed in terminal/Command prompt from the directory level)
+
+1. Execute Command: docker build -t grover:0.1 .
+2. Execute Command: docker run -it grover:0.1
+3. Enter commands:
+    3.1. Execute Command: apt -y install python-tk
+
+        (Will ask to fill options)
+
+        1.1 enter 6
+        1.2 enter 44
+
+    3.2. Execute Command: pip install -r requirements.txt
+    3.3. Execute Command: python Final.py
+    3.4 (Some minor errors in code, find someone to sort it out)
